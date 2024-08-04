@@ -1,0 +1,450 @@
+@font-face {
+  font-family: open-sans-regular;
+  src: url(./assets/fonts/static/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: open-sans-light;
+  src: url(./assets/fonts/static/OpenSans-Light.ttf);
+}
+@font-face {
+  font-family: fairplay;
+  src: url(./assets/fonts/playfair-display/static/PlayfairDisplay-Bold.ttf);
+}
+@font-face {
+  font-family: futurak;
+  src: url(./futurak.ttf);
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  font-weight: 400;
+  font-family: open-sans-regular;
+}
+.Salt {
+  font-family: futurak;
+}
+
+/* nave bar */
+.nav-bar {
+  display: flex;
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  height: 110px;
+  top: 0px;
+  /* z-index: 99999px; */
+}
+.logo img {
+  width: 165px;
+  height: 76px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.nave-list li {
+  display: inline-block;
+  color: white;
+  padding-left: 30px;
+  font-size: 16px;
+  margin-top: 40px;
+}
+.nave-list {
+  padding-left: 300px;
+}
+.nav-button {
+  padding-left: 50px;
+  margin-top: 25px;
+}
+.nav-franchise-btn {
+  border-color: white;
+  border: 1px solid;
+  color: white;
+  background-color: black;
+  height: 50px;
+  width: 130px;
+  border-radius: 35px;
+  font-size: 15px;
+}
+.nav-order-btn {
+  margin-left: 30px;
+  text-align: center;
+  border: none;
+  background-color: #ed1c24;
+  width: 130px;
+  height: 50px;
+  color: white;
+  border-radius: 35px;
+  padding-bottom: 5px;
+  font-size: 15px;
+  vertical-align: middle;
+}
+.order-btn i {
+  font-size: 25px;
+  padding-top: 5px;
+}
+/* slider */
+.bg-image {
+  margin-top: 70px;
+  width: 100%;
+  height: 550px;
+  background-image: url(./background-img.jpg);
+}
+/* First section */
+.first {
+  background-color: black;
+  width: 100%;
+  height: max-content;
+}
+
+.heading h1 {
+  color: white;
+  text-align: center;
+  padding-top: 60px;
+  font-size: 40px;
+  font-family: open-sans-light;
+}
+.heading p {
+  font-size: 16px;
+  color: #a9a9aa;
+  text-align: center;
+}
+.cards {
+  text-align: center;
+}
+.cards > div {
+  height: 250px;
+  width: 214px;
+  display: inline-block;
+  /* padding-top: 25px; */
+  /* padding-bottom: 25px; */
+  /* border-radius: 5px; */
+  margin-top: 40px;
+  /* margin-left: 30px; */
+  padding: 0px 30px;
+}
+.cards img {
+  height: 90px;
+  width: 200px !important;
+  padding: 0px 19px;
+  background-color: white;
+  display: block;
+  padding: 30px 25px;
+  border-radius: 5px;
+}
+
+.cards button {
+  text-align: center;
+  display: block;
+  color: white;
+  background-color: black;
+  height: 50px;
+  width: 174px;
+  border-radius: 50px;
+  border: 1px solid;
+  border-color: rgba(255, 255, 255, 0.3);
+  margin: 20px 40px;
+}
+
+/* Second section */
+.second {
+  width: 100%;
+  height: max-content;
+  background-color: #0f0f0f;
+  position: relative;
+  z-index: -1;
+}
+.second > .heading > h1 {
+  font-family: fairplay;
+  font-size: 48px;
+}
+.s-logo {
+  position: absolute;
+  right: 30px;
+  top: 40px;
+}
+.isl-img {
+  margin-left: 170px;
+  margin-top: 100px;
+  display: inline-block;
+  /* position: absolute; */
+  right: 110px;
+  display: inline-block;
+}
+.isl-img2{margin-left: 90px;}
+.isl-detail {
+  vertical-align: top;
+  margin-top: 100px;
+  margin-left: 100px;
+  display: inline-block;
+}
+.location {
+  color: red;
+}
+.name {
+  color: white;
+  margin-top: 10px;
+}
+.address {
+  color: #a9a9aa;
+}
+.ph-no {
+  color: #a9a9aa;
+}
+.direction-btn {
+  margin-top: 50px;
+  display: block;
+}
+.direction-btn button {
+  background-color: black;
+  color: white;
+  height: 50px;
+  width: 174px;
+  border-radius: 50px;
+  border: 1px solid;
+  border-color: rgba(255, 255, 255, 0.3);
+  z-index: 100;
+}
+/* third section */
+
+.third {
+  background-color: black;
+  height: max-content;
+  position: relative;
+  z-index: -1;
+}
+.p-logo {
+  position: absolute;
+  left: 30px;
+  top: 40px;
+}
+.fra img {
+  height: 250px;
+  width: 350px;
+}
+
+.fra {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+  /* margin-left: 70px; */
+  margin-bottom: 0px;
+  font-size: 14px;
+  width: 350px;
+}
+.fra p {
+  color: #a9a9aa;
+}
+.fra1 {
+  padding-left: 8.5%;
+}
+.fra2 {
+  padding-left: 30px;
+}
+.fra3 {
+  padding-left: 30px;
+}
+.fra > .area-name,
+.area-name {margin-top: 10px;
+  color: #ed1c24;
+}
+.fra-row2 {
+  margin-left: 320px;
+}
+.fra-row2 .fra{padding-left: 20px;}
+/*village section  */
+.village-franchise {
+  padding-bottom: 50px;
+  height: max-content;
+  background-color: #0f0f0f;
+}
+.village-franchise-img {
+  display: inline-block;
+  margin-top: 20px;
+}
+.village-franchise img {
+  height: 378px;
+}
+.village-franchise-info {
+  margin-left: 20px;
+  color: white;
+  display: inline-block;
+  vertical-align: 200px;
+}
+.village-franchise-btn button {
+  margin-top: 50px;
+  background-color: #28a745;
+  color: white;
+  height: 50px;
+  width: 174px;
+  border-radius: 50px;
+  border: 1px solid;
+  border-color: rgba(255, 255, 255, 0.3);
+  z-index: 100;
+}
+
+/* opening soon section */
+.opening-soon {
+  text-align: center;
+  background-color: black;
+  height: max-content;
+}
+.opening-soon > div {
+  margin-bottom: 30px;
+}
+.opening-card {
+  background-color: white;
+  width: 370px;
+  display: inline-block;
+  margin: 0px 15px 50px 15px;
+  border-radius: 5px;
+  padding-top: 30px;
+}
+.opening-card > span {
+  color: #ed1c24;
+}
+
+/* social feed section */
+.socialfeed {background: black;}
+
+.socialfeed .heading{
+  text-align: center;
+}
+.socialfeed-pic img{
+
+ height: 250px;
+ width: 250px;
+ padding: 30px 5px;
+ background-color: black;
+
+
+}
+/* footer */
+.footer {
+  background-color: #0f0f0f;
+  color: #a9a9aa;
+}
+.restaurant-detail {
+  color: #a9a9aa;
+  display: inline-block;
+  width: 370px;
+  font-size: 15px;
+}
+.restaurant-detail img {
+  height: 64px;
+  width: 120px;
+}
+.site-link {
+  width: 196px;
+  display: inline-block;
+}
+.site-link ul {
+  list-style-type: none;
+  font-size: 15px;
+}
+.contact {
+  width: 245px;
+  font-size: 15px;
+  display: inline-block;
+}
+.follow-us {
+  display: inline-block;
+  width: 196px;
+  font-size: 15px;
+}
+.follow-us i {
+  background-color: #ed1c24;
+  color: white;
+  width: 50px;
+  height: 33px;
+  display: inline-block;
+  text-align: center;
+  padding-top: 17px;
+  margin-left: 10px;
+  border-radius: 80px;
+}
+.second .heading h1,.third .heading h1, .village-franchise .heading h1, .opening-soon .heading h1, .socialfeed .heading h1{font-family: fairplay;}
+/* media query for home page */
+@media only screen and (max-width: 768px) and (min-width:425px) {
+  .nave-list, .nav-franchise-btn{display: none;}
+  .bg-image {
+    background-image: url(./assets/img/background-img.jpg);
+    /* height: max-content; */
+    background-size: contain;
+    width: 100%;
+    height: 300px;
+    margin-top: 100px;
+  }
+  .village-franchise-img {
+    width: 354px;
+    height: 203px;
+  }
+}
+
+@media only screen and (max-width: 480px) and (min-width: 425px) {
+  .nav-bar {
+    height: 70px;
+  }
+  .nave-list,
+  .nav-franchise-btn {
+    display: none;
+  }
+  .logo {
+    text-align: center;
+  }
+  .nav-button {
+    margin-top: 18px;
+  }
+  .logo img {
+    width: 84px;
+    height: 38px;
+  }
+  .nav-order-btn {
+    width: 112px;
+    height: 38px;
+    margin-left: 120px;
+    font-size: 12px;
+  }
+  .bg-image {
+    padding-top: 20px;
+    height: 425px;
+    width: 100%;
+    background-image: url(./9291d42d-3c8b-4c82-a9bb-fef5f9802269.webp);
+    background-size: contain;
+  }
+  .second > .heading > h1 {
+    font-size: 24px;
+  }
+  .isl-detail {
+    text-align: center;
+    margin-left: 10px;
+  }
+  .isl-img {
+    margin-left: 23px;
+  }
+  .isl-img img {
+    height: 215px;
+    width: 380px;
+  }
+  .fra-row2 {
+    margin-left: 10px;
+  }
+  .village-franchise-img {
+    margin-left: 20px;
+  }
+  .village-franchise {
+    height: 600px;
+  }
+  .village-franchise-info {
+    text-align: center;
+    padding: 20px;
+  }
+  .village-franchise-img img {
+    height: 226px;
+    width: 395px;
+  }
+  .socialfeed-pic { text-align: center;}
+  .socialfeed-pic img {height: 139px;width: 139px;}
+  .heading h1 {
+    font-size: 24px;
+  }
+}
